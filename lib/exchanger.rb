@@ -28,6 +28,9 @@ require "exchanger/elements/attendee"
 require "exchanger/elements/complete_name"
 require "exchanger/elements/calendar_view"
 require "exchanger/elements/body"
+require "exchanger/elements/address"
+require "exchanger/elements/room"
+
 # Entry elements
 require "exchanger/elements/entry"
 require "exchanger/elements/email_address"
@@ -79,6 +82,8 @@ require "exchanger/operations/get_attachment"
 require "exchanger/operations/create_attachment"
 require "exchanger/operations/delete_attachment"
 require "exchanger/operations/get_user_configuration"
+require "exchanger/operations/get_room_lists"
+require "exchanger/operations/get_rooms"
 
 module Exchanger
   NS = {
